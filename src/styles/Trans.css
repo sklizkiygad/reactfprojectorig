@@ -1,0 +1,16 @@
+.postik-enter{
+    transform: translateX(-150px);
+}
+
+.postik-enter-active{
+    transform: translateX(0px);
+    transition:all 500ms ease-in;
+}
+
+.postik-exit{
+    opacity: 1;
+}
+.postik-exit-active{
+    transform: translateX(-150px);
+    transition: all 500ms ease-in;
+}
